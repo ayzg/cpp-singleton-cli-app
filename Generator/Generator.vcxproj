@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GenerateApp.cpp" />
+    <ClInclude Include="ISOApp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ISOApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
